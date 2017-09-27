@@ -196,3 +196,6 @@ If two or more peers have same name, <sharp>number is appended to the name. (for
 #### Other
 * **quit** - quit
 * **safe_quit** - wait for all queries to end then quit
+
+#### Note
+* rm -rf ~/.telegram-cli && bin/telegram-cli -k server.pub -q -v 5 | tee /home/ubuntu/data1/tg/log/test.log
